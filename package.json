@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "aws-amplify": "^1.1.19",
+    "aws-amplify-react": "^2.3.0",
+    "bootstrap-css-only": "^4.3.1",
     "react": "^16.8.3",
-    "react-dom": "^16.8.3"
+    "react-dom": "^16.8.3",
+    "reactstrap": "^7.1.0"
   },
   "devDependencies": {
     "react-scripts": "2.1.5"

@@ -1,0 +1,14 @@
+{
+    "prod": {
+        "awscloudformation": {
+            "AuthRoleName": "nearest-mosques-20190302100928-authRole",
+            "UnauthRoleArn": "arn:aws:iam::003461298725:role/nearest-mosques-20190302100928-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::003461298725:role/nearest-mosques-20190302100928-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "nearest-mosques-20190302100928-deployment",
+            "UnauthRoleName": "nearest-mosques-20190302100928-unauthRole",
+            "StackName": "nearest-mosques-20190302100928",
+            "StackId": "arn:aws:cloudformation:eu-west-1:003461298725:stack/nearest-mosques-20190302100928/43e2e4e0-3cd3-11e9-99c7-0ac6bcaf6240"
+        }
+    }
+}

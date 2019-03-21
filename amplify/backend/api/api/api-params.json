@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/mosques",
+            "lambdaFunction": "mosques",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "api",
+    "apiName": "api",
+    "functionArns": [
+        {
+            "lambdaFunction": "mosques"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "nearest-mosques-20190302100928-authRole",
+        "unAuthRoleName": "nearest-mosques-20190302100928-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "mosques",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
